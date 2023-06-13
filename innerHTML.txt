@@ -1,9 +1,0 @@
-<div class="menu-item">
-          <div class="menu-food-image">🍕</div>
-          <div class="menu-food-info">
-            <h1>Pizza</h1>
-            <p>pepperoni, mushrom, mozarella</p>
-            <h2>$14</h2>
-          </div>
-          <button class="menu-food-btn">+</button>
-        </div>
