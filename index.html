@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Restaurant App</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="images/header.png" alt="header picture" />
+      </header>
+
+      <section class="menu" id="menu"></section>
+
+      <section class="order hide" id="order">
+        <h1>Your Order</h1>
+        <div class="order-list" id="order-list"></div>
+        <div class="order-list-total" id="order-list-total"></div>
+        <div class="order-list-btn">
+          <button id="complete-order-btn">Complete order</button>
+        </div>
+      </section>
+
+      <section class="modal" id="modal">
+        <h1>Enter card details</h1>
+        <form class="modal-form">
+          <input
+            class="modal-form-input"
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <input
+            class="modal-form-input"
+            type="text"
+            name="cardNumber"
+            placeholder="Enter your card number"
+            required
+          />
+          <input
+            class="modal-form-input"
+            type="text"
+            name="cardCVV"
+            placeholder="Enter CVV"
+            required
+          />
+          <button class="modal-form-btn" type="submit">Pay</button>
+        </form>
+      </section>
+    </main>
+    <script src="/index.js" type="module"></script>
+  </body>
+</html>

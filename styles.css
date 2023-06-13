@@ -1,0 +1,238 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Smythe', cursive;
+}
+
+h1,
+h2 {
+    font-weight: 400;
+}
+
+main {
+    width: 600px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+/* MENU */
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    gap: 45px;
+}
+
+.menu-item {
+    border-bottom: 1px solid #dddddd;
+    width: 508px;
+    height: 140px;
+    display: flex;
+}
+
+.menu-food-image {
+    width: fit-content;
+    height: 89px;
+    font-size: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.menu-food-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu-food-info h1,
+.menu-food-info p,
+.menu-food-info h2 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.menu-food-info h1{
+    width: 43px;
+    height: 17px;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.menu-food-info p {
+    width: 300px;
+    height: 24px;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.menu-food-info h2 {
+    width: 18px;
+    height: 24px;
+    font-size: 20px;
+}
+
+.menu-food-btn {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: 32px;
+    color: #3C3C3C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    justify-self: flex-end;
+    background: inherit;
+    cursor: pointer;
+}
+
+/* Your Order */
+.order {
+    width: 508px;
+    text-align: center;
+    font-weight: inherit;
+    /* display: none; */
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.order-list-item {
+    display: flex;
+    align-items: center;
+    /* outline: 1px solid green; */
+}
+
+.order-list-item h1,
+.order-list-item p,
+.order-list-item h2{
+    margin: 0;
+}
+
+.order-list-item p {
+    color: #BBBBBB;
+    margin-left: 13px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.order-list-total {
+    display: flex;
+    border-top: 2px solid #393333;
+    margin-top: 31px;
+}
+
+.order-list-total h1 {
+    margin-right: auto;
+}
+
+.order-list-btn button{
+    width: 508px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Modal */
+.modal {
+    width: 524px;
+    height: 542px;
+    position: absolute;
+    top: 292px;
+    background: #FFFFFF;
+    border-radius: 3.88991px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.modal h1 {
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 47PX;
+}
+
+.modal-form{
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 46px;
+}
+
+.modal-form-input {
+    width: 475px;
+    height: 71px;
+    padding: 16px 16px 16px 23px;
+    box-sizing: border-box;
+}
+.modal-form-input,
+.modal-form-input::placeholder {
+    font-family: 'Verdana';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.modal-form-btn {
+    width: 475px;
+    height: 71px;
+    background: #16DB99;
+    border-radius: 3.88991px;
+    border: none;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.order-complete {
+    width: 504px;
+    height: 120px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #065F46;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
